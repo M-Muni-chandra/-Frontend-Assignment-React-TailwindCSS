@@ -37,7 +37,7 @@ It focuses on replicating the right-hand widgets from the Figma prototype: a tab
    npm install
    
 3.**Start the Development Server**
-   npm run dev  
+    npm run build
    
 4.**View in Browser**
    Open http://localhost:5173
