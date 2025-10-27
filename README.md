@@ -1,45 +1,16 @@
-# 🎨 Frontend Assignment – React + Tailwind CSS
+# React + Vite
 
-This project is the implementation of the given Figma assignment using **React** and **Tailwind CSS**.  
-It focuses on replicating the right-hand widgets from the Figma prototype: a tabbed content section ("About Me", "Experiences", "Recommended") and a responsive gallery section with an “Add Image” feature.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Live Demo
-🔗 [View Live Project](https://your-vercel-link.vercel.app)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## React Compiler
 
-## 🧰 Tech Stack
-- React.js  
-- Tailwind CSS
-- Vite 
-- Vercel / Netlify for deployment  
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
----
+## Expanding the ESLint configuration
 
-## ✨ Features
-- Three clickable tabs — **About Me**, **Experiences**, **Recommended**  
-- Dynamic gallery section with an **Add Image** button  
-- All components are responsive (for screens above 768px width)  
-- Accurate UI with perfect padding, margins, and shadows  
-- Smooth transitions and hover effects matching the prototype  
-
----
-
-## ⚙️ Setup Instructions
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/react-assignment.git
-   cd react-assignment
-2.**Install Dependencies**
-   npm install
-   
-3.**Start the Development Server**
-    npm run build
-   
-4.**View in Browser**
-   Open http://localhost:5173
-
-   
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
